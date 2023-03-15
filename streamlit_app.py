@@ -34,6 +34,10 @@ streamlit.write('The user entered ', fruit_choice)
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
+#This will not work correctly, but just go with it now 
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+
+
 #take the json version of the response and normalize it 
 fruityvice_normalized = pd.json_normalize(fruityvice_response.json()) 
 #output it to the screen as a table 
