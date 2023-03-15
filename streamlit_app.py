@@ -59,9 +59,9 @@ except URLError as e:
 #my_cur = my_cnx.cursor()
 #my_cur.execute("select * from fruit_load_list")
 #my_data_rows = my_cur.fetchall()
-#streamlit.header("The fruit list contains: ")
 #streamlit.dataframe(my_data_rows)
 
+streamlit.header("The fruit list contains: ")
 #Snowflake related function 
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
@@ -82,4 +82,3 @@ streamlit.write('Thanks for adding ', add_my_fruit)
 #This will not work, but just go with it now 
 my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
-#new section to display 
