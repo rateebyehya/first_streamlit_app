@@ -17,3 +17,6 @@ I learned about SnowSQL (Snowflake’s CLI tool) to perform file PUTs. I learned
 
 ## Final Word
 Before this course and the Data Management class offered by professor Franck Laveneur at UCLA Anderson, I only knew how to manipulate, visualize, and model data from spreadsheets. I had very little experience when it came to the really difficult work of data architecture and data pipelines. Now, I understand where data is coming from and how Snowflake can be used to connect with external stages like AWS or Tableau to put all the pieces together.
+
+## Take a Look
+https://rateebyehya-first-streamlit-app-streamlit-app-ez09ft.streamlit.app/
